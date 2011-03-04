@@ -1,0 +1,20 @@
+#summary Initial Architecture (draft, ideas)
+#labels Draft
+
+= Introduction =
+jQuery widget:
+  # http://bililite.com/blog/understanding-jquery-ui-widgets-a-tutorial/
+  # http://www.erichynds.com/jquery/tips-for-developing-jquery-ui-widgets/
+
+ISearchOptions has list of ISearchOptionsParam.
+
+Initially support next implementation of ISearchOptionsParam:
+  # CheckBoxGroupSearchOptionsParam
+  # CheckBoxSearchOptionsParam  
+  # TextSearchOptionsParam
+  # AutoCompleteSearchOptionsParam
+  # RangeSearchOptionsParam
+
+The same hierarchy has in js class renderers.
+
+IJsonSerializer abstraction over json serializator. Options for serializator are Json.NET DataContractJsonSerializer.
